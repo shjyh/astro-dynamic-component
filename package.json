@@ -1,11 +1,19 @@
 {
   "name": "astro-dynamic-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Astro integration that enables dynamic component imports with glob patterns and client directives support",
   "type": "module",
   "main": "./src/index.mjs",
+  "types": "./src/index.d.ts",
   "exports": {
-    ".": "./src/index.mjs"
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.mjs"
+    },
+    "./vite-plugin": {
+      "types": "./src/vite-plugin.d.ts",
+      "default": "./src/vite-plugin.mjs"
+    }
   },
   "files": [
     "src",
@@ -31,7 +39,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shjyh/astro-dynamic-component.git"
+    "url": "git+https://github.com/shjyh/astro-dynamic-component.git"
   },
   "bugs": {
     "url": "https://github.com/shjyh/astro-dynamic-component/issues"
