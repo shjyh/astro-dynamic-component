@@ -1,0 +1,29 @@
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Testing
+coverage/
+*.test.js
+*.spec.js
+
+# Documentation (except README.md which is included)
+docs/
+examples/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Misc
+.DS_Store
+Thumbs.db
+.env
+.env.local
