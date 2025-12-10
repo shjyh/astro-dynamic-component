@@ -18,8 +18,6 @@ import VueComponent from "./components/X.vue";
 const X = VueComponent;
 ---
 <X client:load />
----
-<Component client:load />
 ```
 
 This plugin solves it by generating static imports from glob patterns while preserving client directives.
