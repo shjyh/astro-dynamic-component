@@ -9,10 +9,6 @@
     ".": {
       "types": "./src/index.d.ts",
       "default": "./src/index.mjs"
-    },
-    "./vite-plugin": {
-      "types": "./src/vite-plugin.d.ts",
-      "default": "./src/vite-plugin.mjs"
     }
   },
   "files": [
