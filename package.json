@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/shjyh/astro-dynamic-component#readme",
   "peerDependencies": {
-    "astro": "^4.0.0 || ^5.0.0"
+    "astro": "^4.0.0 || ^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "fast-glob": "^3.3.3",
